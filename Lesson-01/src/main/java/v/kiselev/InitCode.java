@@ -60,7 +60,7 @@ public class InitCode {
 
     }
 
-    class Lorry extends Car, Moveable, Stopable{
+    class Lorry extends Car implements Moveable, Stopable{
 
         public void move(){
             System.out.println("Car is moving");
@@ -68,6 +68,11 @@ public class InitCode {
 
         public void stop(){
             System.out.println("Car is stop");
+        }
+
+        @Override
+        void open() {
+            System.out.println("Car is open");
         }
     }
 
