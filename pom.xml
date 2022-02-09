@@ -14,6 +14,7 @@
         <module>Lesson-03</module>
         <module>Lesson-04</module>
         <module>Lesson-05</module>
+        <module>Lesson-06-JavaWeb</module>
     </modules>
     <packaging>pom</packaging>
 
