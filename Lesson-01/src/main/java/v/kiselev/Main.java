@@ -5,6 +5,8 @@ import v.kiselev.figure.Figure;
 import v.kiselev.figure.Square;
 import v.kiselev.figure.Triangle;
 
+import java.util.LinkedList;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -14,7 +16,6 @@ public class Main {
                 .age(29)
                 .build();
 
-        System.out.println(person.getFirstName());
 
         Figure circle = new Circle(10);
         Figure square = new Square(10);
